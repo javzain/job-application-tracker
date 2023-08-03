@@ -1,0 +1,26 @@
+.job-details {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .job-details div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .job-details .attribute {
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 10px;
+  }
+  
+  .job-details .value {
+    flex: 1;
+  }
+
+  .jobDet{
+    font-size: larger;
+  }
+  
